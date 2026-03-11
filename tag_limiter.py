@@ -4,7 +4,7 @@ class TagLimiter:
         return {
             "required": {
                 "text": ("STRING", {"multiline": True, "default": ""}),
-                "limit": ("INT", {"default": 10, "min": 0, "max": 1000, "step": 1}),
+                "limit": ("INT", {"default": 40, "min": 0, "max": 1000, "step": 1}),
             },
         }
 

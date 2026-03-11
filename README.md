@@ -35,7 +35,7 @@ git clone [repository-url] tag-limiter
 The Tag Limiter node has two input parameters:
 
 - **text** (STRING): The comma-separated text containing tags to be limited
-- **limit** (INT): The maximum number of tags to keep (default: 10)
+- **limit** (INT): The maximum number of tags to keep (default: 40)
 
 ### Example Workflows
 

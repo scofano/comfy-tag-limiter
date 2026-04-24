@@ -1,0 +1,13 @@
+[project]
+name = "comfy-tag-limiter"
+description = "ComfyUI custom node that limits the number of tags in a comma-separated string."
+version = "1.0.0"
+license = {file = "LICENSE.txt"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/scofano/comfy-tag-limiter"
+
+[tool.comfy]
+PublisherId = "dansco"
+DisplayName = "Tag Limiter"
